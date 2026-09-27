@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lakshya Garg - Resume</title>
+  <style>
+    :root {
+      --primary-color: #1a365d;
+      --text-color: #2d3748;
+      --link-color: #2b6cb0;
+      --border-color: #cbd5e0;
+      --bg-color: #ffffff;
+    }
+
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      color: var(--text-color);
+      background-color: #f7fafc;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.5;
+    }
+
+    .resume-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--bg-color);
+      padding: 40px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+    }
+
+    header {
+      text-align: center;
+      border-bottom: 2px solid var(--primary-color);
+      padding-bottom: 15px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0 0 8px 0;
+      font-size: 28px;
+      letter-spacing: 1px;
+      color: var(--primary-color);
+      text-transform: uppercase;
+    }
+
+    .contact-links {
+      font-size: 14px;
+    }
+
+    .contact-links a {
+      color: var(--link-color);
+      text-decoration: none;
+    }
+
+    .contact-links a:hover {
+      text-decoration: underline;
+    }
+
+    .section-title {
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--primary-color);
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 4px;
+      margin-top: 24px;
+      margin-bottom: 12px;
+    }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      margin-bottom: 2px;
+    }
+
+    .item-subheader {
+      display: flex;
+      justify-content: space-between;
+      font-style: italic;
+      font-size: 14px;
+      color: #4a5568;
+      margin-bottom: 6px;
+    }
+
+    ul {
+      margin: 4px 0 12px 20px;
+      padding: 0;
+    }
+
+    li {
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+
+    .skills-list p {
+      font-size: 14px;
+      margin: 4px 0;
+    }
+
+    @media print {
+      body {
+        background: none;
+        padding: 0;
+      }
+      .resume-container {
+        box-shadow: none;
+        padding: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <header>
+      <h1>Lakshya Garg</h1>
+      <div class="contact-links">
+        <a href="https://leetcode.com/u/lakshya7garg/" target="_blank">LeetCode</a> |
+        <a href="https://github.com/lakshya7garg" target="_blank">GitHub</a> |
+        <a href="https://lakshya7garg.github.io/" target="_blank">Portfolio</a> |
+        <a href="mailto:lakshyagarg708@gmail.com">lakshyagarg708@gmail.com</a> |
+        <span>+91 9627570271</span>
+      </div>
+    </header>
+
+    <div class="section-title">Education</div>
+    <div class="item-header">
+      <span>GL Bajaj Institute of Technology and Management</span>
+      <span>Oct 2023 – July 2027</span>
+    </div>
+    <div class="item-subheader">
+      <span>Bachelor of Technology – Computer Science and Engineering; GPA: 8.61</span>
+    </div>
+    <ul>
+      <li><strong>Courses:</strong> Operating Systems, Data Structures, Analysis of Algorithms, Artificial Intelligence, Machine Learning, Networking, Database</li>
+    </ul>
+
+    <div class="item-header">
+      <span>Senior School Certificate Examination — 94.2%</span>
+      <span>Apr 2020 – Mar 2022</span>
+    </div>
+    <div class="item-header" style="margin-top: 6px;">
+      <span>Higher School Examination — 94.6%</span>
+      <span>Apr 2018 – Mar 2020</span>
+    </div>
+
+    <div class="section-title">Skills Summary</div>
+    <div class="skills-list">
+      <p><strong>Languages:</strong> C++, Java, Python, SQL, JavaScript</p>
+      <p><strong>CS Concepts:</strong> Data Structures & Algorithms, Object-Oriented Programming (OOP), Database Management Systems (DBMS), Operating Systems, Computer Networks, Software Engineering, SDLC, Artificial Intelligence, Machine Learning</p>
+      <p><strong>Backend:</strong> Node.js, Express.js, React.js</p>
+      <p><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB</p>
+      <p><strong>AI/ML:</strong> TensorFlow, Keras, Scikit-learn, NumPy, Pandas, Google Gemini API</p>
+      <p><strong>Tools:</strong> Git, GitHub, VS Code</p>
+      <p><strong>Soft Skills:</strong> Communication, Problem Solving, Teamwork, Analytical Thinking, Time Management</p>
+    </div>
+
+    <div class="section-title">Projects</div>
+    <div class="item-header">
+      <span>MockMate-AI – Personalized Interviewer</span>
+      <span><a href="https://github.com/lakshya7garg" target="_blank">Live</a> | <a href="https://github.com/lakshya7garg" target="_blank">GitHub</a></span>
+    </div>
+    <div class="item-subheader">
+      <span>Tech Stack: React.js, Node.js, Google Gemini API</span>
+    </div>
+    <ul>
+      <li>Developed a web application that helps candidates practice for their interviews in a realistic and conversational tone, instead of relying on standard questions for interviews.</li>
+      <li>Implemented a chat-based system using Google Gemini API, where the AI conducts interviews, asks questions, and provides a performance score at the end.</li>
+      <li>Deployed a live, login-based web application that simulates realistic interview sessions, making practice accessible and engaging to candidates.</li>
+    </ul>
+
+    <div class="item-header">
+      <span>FixMyCity – AI-Powered Civic Issue Reporting Platform (Ongoing)</span>
+      <span></span>
+    </div>
+    <div class="item-subheader">
+      <span>Tech Stack: Next.js, Google Gemini API, Tailwind CSS</span>
+    </div>
+    <ul>
+      <li>Designed and developed a scalable full-stack civic issue reporting platform using Next.js and Google Gemini API.</li>
+      <li>Implemented secure authentication, role-based authorization and real-time complaint tracking with relational database integration.</li>
+    </ul>
+
+    <div class="item-header">
+      <span>EmotionSense – Real-Time Facial Emotion Recognition</span>
+      <span><a href="https://github.com/lakshya7garg" target="_blank">Live</a> | <a href="https://github.com/lakshya7garg" target="_blank">GitHub</a></span>
+    </div>
+    <div class="item-subheader">
+      <span>Tech Stack: Python, TensorFlow, OpenCV, Keras</span>
+    </div>
+    <ul>
+      <li>Developed a CNN-based facial emotion recognition system to classify emotions such as happy, sad, angry, fear, and surprise from real-time webcam input with 83% accuracy.</li>
+      <li>Built an end-to-end computer vision pipeline using OpenCV and TensorFlow for real-time facial emotion recognition and healthcare-focused analytics.</li>
+    </ul>
+
+    <div class="section-title">Coding Achievements</div>
+    <ul>
+      <li>Solved 500+ Data Structures and Algorithms (DSA) problems across LeetCode, CodeChef, and other competitive programming platforms.</li>
+      <li>Achieved a maximum LeetCode Contest Rating of 1707 and earned the LeetCode 100 Days Badge for consistent problem-solving.</li>
+      <li>Participated in 25+ competitive programming contests, strengthening algorithmic thinking and coding skills.</li>
+    </ul>
+
+    <div class="section-title">Volunteer Experience</div>
+    <div class="item-header">
+      <span>Event Volunteer | College Technical Fest</span>
+      <span>Feb 2025 – Sep 2025</span>
+    </div>
+    <ul>
+      <li>Collaborated with a team to ensure smooth execution of competitions and technical sessions.</li>
+    </ul>
+
+    <div class="section-title">Languages</div>
+    <p style="font-size: 14px; margin: 4px 0;">English, Hindi</p>
+  </div>
+</body>
+</html>

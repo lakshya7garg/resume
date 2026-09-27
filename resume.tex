@@ -1,0 +1,167 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fontspec}
+\usepackage{tabularx}
+
+\pagestyle{empty}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\hline \vspace{-5pt}]
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{ul}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{ul}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Lakshya Garg} \\ \vspace{5pt}
+    \small \href{https://leetcode.com/u/lakshya7garg/}{LeetCode} $|$ 
+    \href{https://github.com/lakshya7garg}{GitHub} $|$ 
+    \href{https://lakshya7garg.github.io/}{Portfolio} $|$ 
+    \href{mailto:lakshyagarg708@gmail.com}{lakshyagarg708@gmail.com} $|$ 
+    +91 9627570271
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \item
+      \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{GL Bajaj Institute of Technology and Management} & Oct 2023 -- July 2027 \\
+        \textit{\small Bachelor of Technology -- Computer Science and Engineering; GPA: 8.61} & \\
+        \multicolumn{2}{l}{\small Courses: Operating Systems, Data Structures, Analysis of Algorithms, Artificial Intelligence, Machine Learning, Networking, Database} \\
+      \end{tabular*}\vspace{-5pt}
+    \item
+      \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{Senior School Certificate Examination -- 94.2\%} & Apr 2020 -- Mar 2022 \\
+        \textbf{Higher School Examination -- 94.6\%} & Apr 2018 -- Mar 2020 \\
+      \end{tabular*}
+  \end{itemize}
+
+%-----------SKILLS SUMMARY-----------
+\section{Skills Summary}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C++, Java, Python, SQL, JavaScript} \\
+     \textbf{CS Concepts}{: Data Structures \& Algorithms, Object-Oriented Programming (OOP), Database Management Systems (DBMS), Operating Systems, Computer Networks, Software Engineering, SDLC, Artificial Intelligence, Machine Learning} \\
+     \textbf{Backend}{: Node.js, Express.js, React.js} \\
+     \textbf{Databases}{: MySQL, PostgreSQL, MongoDB} \\
+     \textbf{AI/ML}{: TensorFlow, Keras, Scikit-learn, NumPy, Pandas, Google Gemini API} \\
+     \textbf{Tools}{: Git, GitHub, VS Code} \\
+     \textbf{Soft Skills}{: Communication, Problem Solving, Teamwork, Analytical Thinking, Time Management}
+    }}
+ \end{itemize}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \begin{itemize}[leftmargin=0.15in, label={}]
+      \item
+        \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+          \textbf{MockMate-AI -- Personalized Interviewer} & \href{https://github.com/lakshya7garg}{Live $|$ GitHub} \\
+          \textit{\small Tech Stack: React.js, Node.js, Google Gemini API} & \\
+        \end{tabular*}\vspace{-5pt}
+        \begin{itemize}[leftmargin=0.15in]
+          \resumeItem{Developed a web application that helps candidates practice for their interviews in a realistic and conversational tone, instead of relying on standard questions for interviews.}
+          \resumeItem{Implemented a chat-based system using Google Gemini API, where the AI conducts interviews, asks questions, and provides a performance score at the end.}
+          \resumeItem{Deployed a live, login-based web application that simulates realistic interview sessions, making practice accessible and engaging to candidates.}
+        \end{itemize}
+
+      \item
+        \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+          \textbf{FixMyCity -- AI-Powered Civic Issue Reporting Platform} \textit{(Ongoing)} & \\
+          \textit{\small Tech Stack: Next.js, Google Gemini API, Tailwind CSS} & \\
+        \end{tabular*}\vspace{-5pt}
+        \begin{itemize}[leftmargin=0.15in]
+          \resumeItem{Designed and developed a scalable full-stack civic issue reporting platform using Next.js and Google Gemini API.}
+          \resumeItem{Implemented secure authentication, role-based authorization and real-time complaint tracking with relational database integration.}
+        \end{itemize}
+
+      \item
+        \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+          \textbf{EmotionSense -- Real-Time Facial Emotion Recognition} & \href{https://github.com/lakshya7garg}{Live $|$ GitHub} \\
+          \textit{\small Tech Stack: Python, TensorFlow, OpenCV, Keras} & \\
+        \end{tabular*}\vspace{-5pt}
+        \begin{itemize}[leftmargin=0.15in]
+          \resumeItem{Developed a CNN-based facial emotion recognition system to classify emotions such as happy, sad, angry, fear, and surprise from real-time webcam input with 83\% accuracy.}
+          \resumeItem{Built an end-to-end computer vision pipeline using OpenCV and TensorFlow for real-time facial emotion recognition and healthcare-focused analytics.}
+        \end{itemize}
+    \end{itemize}
+
+%-----------CODING ACHIEVEMENTS-----------
+\section{Coding Achievements}
+ \begin{itemize}[leftmargin=0.15in]
+    \resumeItem{Solved 500+ Data Structures and Algorithms (DSA) problems across LeetCode, CodeChef, and other competitive programming platforms.}
+    \resumeItem{Achieved a maximum LeetCode Contest Rating of 1707 and earned the LeetCode 100 Days Badge for consistent problem-solving.}
+    \resumeItem{Participated in 25+ competitive programming contests, strengthening algorithmic thinking and coding skills.}
+ \end{itemize}
+
+%-----------VOLUNTEER EXPERIENCE-----------
+\section{Volunteer Experience}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \item
+      \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{Event Volunteer $|$ College Technical Fest} & Feb 2025 -- Sep 2025 \\
+      \end{tabular*}\vspace{-5pt}
+      \begin{itemize}[leftmargin=0.15in]
+        \resumeItem{Collaborated with a team to ensure smooth execution of competitions and technical sessions.}
+      \end{itemize}
+  \end{itemize}
+
+%-----------LANGUAGES-----------
+\section{Languages}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{English, Hindi}}
+ \end{itemize}
+
+\end{document}

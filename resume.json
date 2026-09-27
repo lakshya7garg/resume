@@ -1,0 +1,119 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Lakshya Garg",
+    "label": "Software Engineer & AI/ML Developer",
+    "email": "lakshyagarg708@gmail.com",
+    "phone": "+91 9627570271",
+    "url": "https://lakshya7garg.github.io/",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "lakshya7garg",
+        "url": "https://github.com/lakshya7garg"
+      },
+      {
+        "network": "LeetCode",
+        "username": "lakshya7garg",
+        "url": "https://leetcode.com/u/lakshya7garg/"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "GL Bajaj Institute of Technology and Management",
+      "area": "Computer Science and Engineering",
+      "studyType": "Bachelor of Technology",
+      "startDate": "2023-10-01",
+      "endDate": "2027-07-31",
+      "score": "8.61",
+      "courses": [
+        "Operating Systems",
+        "Data Structures",
+        "Analysis of Algorithms",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Networking",
+        "Database"
+      ]
+    },
+    {
+      "institution": "Senior School Certificate Examination",
+      "startDate": "2020-04-01",
+      "endDate": "2022-03-31",
+      "score": "94.2%"
+    },
+    {
+      "institution": "Higher School Examination",
+      "startDate": "2018-04-01",
+      "endDate": "2020-03-31",
+      "score": "94.6%"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": ["C++", "Java", "Python", "SQL", "JavaScript"]
+    },
+    {
+      "name": "CS Concepts",
+      "keywords": ["Data Structures & Algorithms", "Object-Oriented Programming (OOP)", "Database Management Systems (DBMS)", "Operating Systems", "Computer Networks", "Software Engineering", "SDLC", "Artificial Intelligence", "Machine Learning"]
+    },
+    {
+      "name": "Backend",
+      "keywords": ["Node.js", "Express.js", "React.js"]
+    },
+    {
+      "name": "Databases",
+      "keywords": ["MySQL", "PostgreSQL", "MongoDB"]
+    },
+    {
+      "name": "AI/ML",
+      "keywords": ["TensorFlow", "Keras", "Scikit-learn", "NumPy", "Pandas", "Google Gemini API"]
+    },
+    {
+      "name": "Tools",
+      "keywords": ["Git", "GitHub", "VS Code"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "MockMate-AI – Personalized Interviewer",
+      "description": "Developed a web application that helps candidates practice for their interviews in a realistic and conversational tone.",
+      "highlights": [
+        "Implemented a chat-based system using Google Gemini API, where the AI conducts interviews, asks questions, and provides a performance score at the end.",
+        "Deployed a live, login-based web application that simulates realistic interview sessions."
+      ],
+      "keywords": ["React.js", "Node.js", "Google Gemini API"]
+    },
+    {
+      "name": "FixMyCity – AI-Powered Civic Issue Reporting Platform",
+      "description": "Designed and developed a scalable full-stack civic issue reporting platform using Next.js and Google Gemini API.",
+      "highlights": [
+        "Implemented secure authentication, role-based authorization and real-time complaint tracking with relational database integration."
+      ],
+      "keywords": ["Next.js", "Google Gemini API", "Tailwind CSS"]
+    },
+    {
+      "name": "EmotionSense – Real-Time Facial Emotion Recognition",
+      "description": "Developed a CNN-based facial emotion recognition system to classify emotions with 83% accuracy.",
+      "highlights": [
+        "Built an end-to-end computer vision pipeline using OpenCV and TensorFlow for real-time facial emotion recognition."
+      ],
+      "keywords": ["Python", "TensorFlow", "OpenCV", "Keras"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "College Technical Fest",
+      "position": "Event Volunteer",
+      "startDate": "2025-02-01",
+      "endDate": "2025-09-30",
+      "summary": "Collaborated with a team to ensure smooth execution of competitions and technical sessions."
+    }
+  ],
+  "languages": [
+    { "language": "English" },
+    { "language": "Hindi" }
+  ]
+}
