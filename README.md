@@ -1,6 +1,6 @@
 # LAKSHYA GARG
 
-[LeetCode](https://leetcode.com/u/lakshya7garg/) | [GitHub](https://github.com/lakshya7garg) | [Portfolio](https://lakshya7garg.github.io/) | lakshyagarg708@gmail.com | +91 9627570271
+[LeetCode](https://leetcode.com/u/lakshya7garg/) | [GitHub](https://github.com/lakshya7garg) | [Portfolio](https://lakshyagarg.tech) | lakshyagarg708@gmail.com | +91 9627570271
 
 ---
 
