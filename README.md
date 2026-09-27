@@ -2,6 +2,8 @@
 
 [LeetCode](https://leetcode.com/u/lakshya7garg/) | [GitHub](https://github.com/lakshya7garg) | [Portfolio](https://lakshyagarg.tech) | lakshyagarg708@gmail.com | +91 9627570271
 
+📄 **[Download PDF Resume](Lakshya_Garg_Resume.pdf)**
+
 ---
 
 ## EDUCATION
